@@ -1,0 +1,37 @@
+.main{
+    background-image: url("../images/transport.jpg");
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    border-style: solid;
+    border-color: white;
+    align-content: center;
+    height: 500px;
+    width: 100%;
+    text-align: center;
+    }
+.meniu{
+    position: absolute;
+    height: 160px;
+    width:650px;
+    margin-top: 36% ;
+    margin-left: 25%;}
+
+.Plaukiančios, .Vaziuojančios, .Skraidančios, .about {border-style: groove;
+    height: 50px;
+    width: 150px;
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+    }
+
+#Apie, #floating, #ride, #fly {
+        position: relative;
+        border-style: groove;
+        align-content: center;
+        height: 500px;
+        width: 100%;
+        text-align: center;
+        margin-top: 100px;
+      }

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Zemelapis</title>
+  </head>
+  <body>
+    <h1>Meno knygu parduotuve</h1>
+    <ul>
+      <li><a href="#">namai</a></li>
+      <li><a href="#">knygos</a></li>
+      <li><a href="#">publikacijos</a></li>
+    </ul><br><br>
+
+    Charing Cross Road Londonas, WC2, Jungtyne Karalyste <br><br>
+    Telfeonas 0207 946 0946 <br><br>
+    El. Pastas: <a href="#">knygas@example.com</a><br>
+    <div id="map" style="width:400px;height:400px;background:yellow"></div>
+
+<script>
+function myMap() {
+  var mapCanvas = document.getElementById("map");
+  var mapOptions = {
+    center: new google.maps.LatLng(51.5, -0.2), zoom: 10
+  };
+  var map = new google.maps.Map(mapCanvas, mapOptions);
+}
+</script>
+
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBlnVLqcNEh5nVnicm7A5LluqL9rTlVGSc&callback=myMap"
+  type="text/javascript"></script>
+</body>
+</html>
