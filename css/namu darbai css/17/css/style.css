@@ -1,0 +1,17 @@
+@font-face {
+    font-family: myFont;
+    src: url(css/myFont.otf);
+}
+
+div{
+  width: 100px;
+  height: 100px;
+    border-width: 2px;
+    border-style: groove;
+    float: left;
+    font-family: myFont;
+}
+
+.free{
+  background-color: #d6cf08;
+}

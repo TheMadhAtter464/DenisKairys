@@ -1,0 +1,11 @@
+p {margin-top: 0px;
+  margin-bottom: 0px;
+
+}
+
+.box {
+      border-style: groove;
+      width:300px;
+      background-color: grey;
+      padding: 20px;
+}
