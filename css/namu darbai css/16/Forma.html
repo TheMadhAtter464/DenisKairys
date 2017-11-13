@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Apklausa</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+  </head>
+  <body>
+    <fieldset class="col-md-6">
+      <legend>Jūsu informacija:</legend>
+      <form>
+        <div class="form-group">
+          <div class="form-group">
+            <label for="exampleInputPassword1">Vardas</label>
+            <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Vardas">
+          </div>
+          <label for="exampleInputEmail1">El pastas</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+          <small id="emailHelp" class="form-text text-muted"></small>
+        </div>
+      </form>
+  </fieldset><br><br><br>
+
+  <fieldset class="col-md-8"> <legend>Apžvalga:</legend>
+  Kaip išgirdote apie mus
+
+  <select name="search">
+<option value="Gooogle" SELECTED>google
+<option value="Bing">Bing
+<option value="Yahoo">yahoo
+</select><br><br>
+
+  Ar apsilankysite vel:<br>
+  <form>
+  <input type="radio" name="gender" value="Taip" checked> Taip
+   <input type="radio" name="gender" value="Ne"> Ne
+   <input type="radio" name="gender" value="Galbut"> Galbut <br><br>
+  </form>
+  Komentaras:<br>
+  <textarea name="Komentaras" rows="8" cols="60"></textarea><br><br>
+
+  <input type="checkbox">Uzsakykite naujienas.<br><br>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</fieldset>
+  </body>
+</html>
