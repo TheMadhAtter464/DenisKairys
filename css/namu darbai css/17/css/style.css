@@ -1,6 +1,6 @@
 @font-face {
     font-family: myFont;
-    src: url(css/myFont.otf);
+    src: url("myFont.otf");
 }
 
 div{
@@ -14,7 +14,7 @@ div{
   float: left;
   font-family: myFont;
   padding-left: 5px;
-  padding-top: 5px;
+  padding-top: 2px;
 }
 
 .free{

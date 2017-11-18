@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Skaičiuotuvas</title>
+	     <style>
+			table, td {
+				border: 1px solid black;
+				width: 200px;
+				height: 40px;
+				text-align: center;
+				color: white;
+				text-shadow: 2px 2px #ff0000;
+			}
+			th {
+				border: 1px solid black;
+				height: 80px;
+				width: 190px;
+
+
+			}
+    	</style>
+
+  </head>
+  <body>
+
+    <table border="4" bgcolor="#16073a">
+      <tr>
+        <th colspan="1" bgcolor="#14ad14">
+          <input type="text" id="display" value="" disabled>
+        </th>
+      </tr>
+      <tr>
+        <td>
+          <table>
+            <tr>
+              <td> <input type="button" value="7" onclick="val(7);"> </td>
+              <td> <input type="button" value="8" onclick="val(8);"> </td>
+              <td> <input type="button" value="9" onclick="val(9);"> </td>
+              <td> <input type="button" value="+" onclick="val('+');"> </td>
+            </tr>
+            <tr>
+              <td> <input type="button" value="4" onclick="val(4);"> </td>
+              <td> <input type="button" value="5" onclick="val(5);"> </td>
+              <td> <input type="button" value="6" onclick="val(6);"> </td>
+              <td> <input type="button" value="-" onclick="val('-');"> </td>
+            </tr>
+            <tr>
+              <td> <input type="button" value="1" onclick="val(1);"> </td>
+              <td> <input type="button" value="2" onclick="val(2);"> </td>
+              <td> <input type="button" value="3" onclick="val(3);"> </td>
+              <td> <input type="button" value="*" onclick="val('*');"> </td>
+            </tr>
+            <tr>
+              <td> <input type="button"  value="C" onclick="clear();"> </td>
+              <td> <input type="button"  value="0" onclick="val(0);"> </td>
+              <td> <input type="button"  value="=" onclick="equal();"> </td>
+              <td> <input type="button"  value="/" onclick="val('/');"> </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+
+  </body>
+  <script src="script/script.js">
+    </script>
+</html>
