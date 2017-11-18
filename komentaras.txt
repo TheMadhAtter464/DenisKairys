@@ -1,0 +1,24 @@
+Bendras pastebëjimas: kam css images video katalogai jei jie nenaudojami?
+1. OK, bet teksto galima ir daugiau ádëti kai naudojamas pastraipos elementas
+2. OK. 
+3. OK
+4. Vienas paveiklsiukas yra su tekstu ir atitrauktas nuo kraðto pagal vaizdà. Elementai turi bûti atitraukti nuo kraðto.
+5. Skaièiuotuvas be stiliø, naudojam mygtukus. Nes namø darbas html daliai.
+6. OK, bet reiktø padirbëti su elementais sutvarkant elementø iðdëstymo stiliø. Atitraukimai nuo kraðto!
+7. Uþduoties tikslas buvo patikrinti kaip gebi dirbti su failais kurie yra 5vairiuose kataloguose, o ne visk1 sudëti á vienà failà.
+8. Buvo galima panaudoti address elementà semantiná. Þemëlapiui nebuvo bûtinas javascript. galima su iframe. bet uþskaitau.
+9. Be javascript þemëlapis turi bûti. Google maps, surandame adresà, tada spaudþiame share, yra mygtukas embed map, paspaudþiam ir gaunam html kodà kurá áterpiame á savo svetainæ.
+10. OK.
+11. OK.
+11. uþduotyje paraðyta naudoti div ir span elementus. div panaudotas o span ne. Kiekveinà savaitæ buvo galima átraukti á div, dienas á span.
+11.css. OK.
+12. OK.
+13. OK.
+14. OK.
+15. O kas pasikeitë nuo html? Ir kur mygtukai input type button arba <button>
+16. Select option variantais visai ne stilizuotas :( o bendrai ok.
+17. OK.
+JS1. OK.
+JS2. Neatitinka uþduoties sàlygos. Skaièiuotuvas turi veikti kaip standartinis, nes klientas taip nori :)
+JS3. OK.
+JS4. Kaþkaip visada tà alert meta. nebent mano ekranas per maþas :) Turëjo bûti apraðytas koordinatëse kurios yra uþ ekrano ribø.
