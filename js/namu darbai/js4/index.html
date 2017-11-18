@@ -11,11 +11,15 @@
       $( document ).on( "mousemove", function( event ) {
         $( "#log" ).text( "pageX: " + event.pageX + ", pageY: " + event.pageY );
 
-        if (event.pageX > 478 && event.pageX < 508 ){
-          alert("LOBIS!!!");
+        if (event.pageX > "-1" && event.pageX < "-1" ){
+
+        } else {
+          alert("Tuscia");
         }
-        if (event.pageY > 657 && event.pageY < 687 ){
-          alert("LOBIS!!!");
+
+        if (event.pageY > "-1" && event.pageY < "-1" ){
+        }else {
+          alert("Tuscia");
         }
       });
 
